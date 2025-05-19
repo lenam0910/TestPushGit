@@ -15,6 +15,10 @@ public class Student {
     public Student() {
     }
 
+    public Student(int id) {
+        this.id = id;
+    }
+
     public Student(int id, int Name) {
         this.id = id;
         this.Name = Name;
@@ -35,6 +39,5 @@ public class Student {
     public void setName(int Name) {
         this.Name = Name;
     }
-    
-    
+
 }
